@@ -1,0 +1,44 @@
+form#form {
+    background-color: rgb(154, 186, 27);
+    font-size: 16px;
+    color: white;
+    padding: 40px;
+    width: 50%;
+}
+
+form ul#error{
+    color: red;
+}
+
+input, label {
+    display: inline-block;
+} 
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input#name, input#email{
+    height: 20px;
+    width: 100%;
+} 
+
+input#sign-up{
+    background-color: #ff9300;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+input#sign-up:hover{
+    background-color: #333333;
+}
+
+
+
